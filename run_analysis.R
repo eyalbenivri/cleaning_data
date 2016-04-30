@@ -47,6 +47,9 @@ tidy_df$aggregate <- gsub(x = tidy_df$aggregate, pattern = "[^a-zA-Z]", replacem
 tidy_df$variable_name <- as.factor(tidy_df$variable_name)
 tidy_df$aggregate <- as.factor(tidy_df$aggregate)
 tidy_df$axis <- as.factor(tidy_df$axis)
+write.csv(x = tidy_df, file = "./tidy_df.csv")
 
 # summarize the dataset with avrages
 avg_df <- tidy_df %>% group_by(subject_id, activity_name, variable_name, aggregate, axis) %>% summarise(mean(value))
+
+write.csv(x = avg_df, file = "./avg_tidy_df.csv")
