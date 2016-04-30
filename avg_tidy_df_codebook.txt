@@ -1,0 +1,6 @@
+"subject_id" - Each value identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+"activity_name" - labeled data that identifies the activity taken by the subject while the measurements were taken. This factorial variable has possible values of: WALKING. WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+"variable_name" - The feature measured for each observation. these features come from the original dataset, and relates to accelerometer and gyroscope readings from smartphones the subjects had while performating diffrent activities. for more information see: uci-har-data/features_info.txt
+"aggregate" - the type of aggregate function perfomred on the measurement in each time window, as described in uci-har-data/features_info.txt
+"axis" - the axis of the measure. possible values are: X, Y, Z or NA where not applicable
+"mean(value)" - the mean value taken for each measure, grouped by all the preceeding variables.

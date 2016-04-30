@@ -4,9 +4,11 @@
 1. .gitignore - a gitignore file, to remove local IDE files (RStudio) from the repository
 2. README.md - This file
 3. avg_tidy_df.csv - the csv with the aggregated avraged dataset for all variables (see 'process' section for more details)
-4. run_analysis.R - the R script used to create the tidy_df.csv and avg_tidy_df.csv from the raw data (see 'process' section for more details)
-5. tidy_df.csv - the cleaned and tidy dataset (see 'process' section for more details)
-6. uci-har-data (folder) - contains the entire orginal data as downloded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip (source and full description of the original dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+4. avg_tidy_df_codebook.txt - the codebook to list and explain each variable in the avg_tidy_df.csv file
+5. run_analysis.R - the R script used to create the tidy_df.csv and avg_tidy_df.csv from the raw data (see 'process' section for more details)
+6. tidy_df.csv - the cleaned and tidy dataset (see 'process' section for more details)
+7. tidy_df_codebook.txt - the codebook to list and explain each variable in the tidy_df.csv file
+8. uci-har-data (folder) - contains the entire orginal data as downloded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip (source and full description of the original dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 #### Requirments
 Given the original dataset, the requirment for this solution is to mrege the training and test data sets, enrich with activity names and subject ids, extract only mean and std measurments and make the dataset tidy.
